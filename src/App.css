@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Dark Grey: #393939 – Dark designs take a little bit more fore-thought but can provide tons of contrast if used well. 
