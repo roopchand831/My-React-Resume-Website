@@ -1,0 +1,84 @@
+#Contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+#Contact .details {
+  width: 45%;
+  padding: 1rem;
+}
+
+#Contact .details img {
+  height: 15rem;
+  width: 23rem;
+  padding: 1rem;
+}
+
+#Contact .contact-info {
+  width: 40%;
+  padding: 2rem;
+}
+
+#Contact .contact-info img {
+  height: 2rem;
+  width: 2rem;
+}
+
+#Contact .contact-info p {
+  padding: 0 1rem;
+}
+
+#Contact .contact-info .address {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+#Contact .contact-info .email {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+#Contact .contact-info .phone {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+#Contact .contact-info .github {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  #Contact {
+    flex-flow: column;
+    height: auto;
+  }
+
+  #Contact .details {
+    width: 80%;
+  }
+  #Contact .contact-info {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #Contact {
+    flex-flow: column;
+    height: auto;
+  }
+  #Contact .details img {
+    height: 10rem;
+    width: 15rem;
+    padding: 1rem;
+  }
+  #Contact .contact-info {
+    margin-bottom: 50%;
+  }
+}

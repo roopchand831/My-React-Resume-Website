@@ -6,8 +6,10 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #393939;
-  padding: 10px 10px;
+  background-color: #333333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
 }
 
 .Header a {
@@ -22,6 +24,7 @@ li {
 }
 
 .Header h1 {
+  margin-left: 2rem;
   color: #ff5a09;
 }
 
@@ -77,9 +80,9 @@ li {
   background-color: rgb(31, 30, 30);
   width: 100vw;
   height: 100vh;
-  left: 100%;
+  left: 200%;
   top: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -90,6 +93,7 @@ li {
 .Header .nav-list.active ul {
   display: flex;
   left: 0;
+  transition: 0.5s ease left;
 }
 
 .Header .nav-list.active ul a {
@@ -107,9 +111,11 @@ li {
     position: initial;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     height: auto;
     width: fit-content;
     background-color: transparent;
+    margin-right: 2rem;
   }
 
   .Header a {
