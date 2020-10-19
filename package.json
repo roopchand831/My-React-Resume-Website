@@ -2,7 +2,7 @@
   "name": "react-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://roopchand831.github.io/My-React-Resume-Website/"
+  "homepage":"https://roopchand831.github.io/My-React-Resume-Website/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
