@@ -26,7 +26,7 @@ function Content(props) {
           <h2>Role:Full Stack Web Developer</h2>
 
           <div className="duration">
-            <img src="https://img.icons8.com/plasticine/100/000000/planner.png" />
+            <img src="https://img.icons8.com/plasticine/100/000000/planner.png" alt="duration" />
             <p>1st March to Present</p>
           </div>
           <p>

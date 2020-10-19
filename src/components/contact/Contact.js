@@ -22,18 +22,18 @@ function Contact(props) {
       <div className="contact-info">
         <h1>CONTACT</h1>
         <div className="address">
-          <img src="https://img.icons8.com/plasticine/100/000000/worldwide-location.png" />
+          <img src="https://img.icons8.com/plasticine/100/000000/worldwide-location.png" alt="address" />
           <p>
             Flat A-102, Golden nest apartments, JCR Layout, panathur,
             kadubeesanahalli,Bangalore-560087
           </p>
         </div>
         <div className="email">
-          <img src="https://img.icons8.com/dusk/100/000000/email.png" />
+          <img src="https://img.icons8.com/dusk/100/000000/email.png" alt="email" />
           <p>roopchand831@gmail.com</p>
         </div>
         <div className="phone">
-          <img src="https://img.icons8.com/cute-clipart/64/000000/cell-phone.png" />
+          <img src="https://img.icons8.com/cute-clipart/64/000000/cell-phone.png" alt="phone" />
           <p>+91 7406454995</p>
         </div>
 
